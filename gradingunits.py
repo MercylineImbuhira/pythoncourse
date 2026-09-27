@@ -1,3 +1,5 @@
+stds=[]
+for i in range(1,6):
 Std_Name = input("Your name:")
 Std_Adm = input("Admission Number:")
 Age = int(input("Your current age:"))
@@ -32,6 +34,8 @@ def classify_grade():
     else:
         Status = "Fail"
     return Status
+    stdlist = [Std_Name, Std_Adm, Age, SumTotal, Average, calculate_average(), classify_grade()]
+    stds.append(stdlist)
 print("------------Student Result-------------")
 print(Std_Name)
 print(Std_Adm)
