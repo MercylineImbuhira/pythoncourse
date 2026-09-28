@@ -35,7 +35,7 @@ def classify_grade():
         Status = "Fail"
     return Status
     stdlist = [Std_Name, Std_Adm, Age, SumTotal, Average, calculate_average(), classify_grade()]
-    stds.append(stdlist)
+
 print("------------Student Result-------------")
 print(Std_Name)
 print(Std_Adm)
